@@ -1,0 +1,198 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:fontawesome;
+	height:100%;
+	box-sizing:border-box;
+	color:#000000 !important;
+}
+.bg-black h3{
+	text-align:center;
+	padding:20px 0px;
+	margin:0px;
+}
+.bg-black , .carousel {
+	background-image: linear-gradient(233deg, #e56420, #c22525, #3d9c31, #37bbde);
+	color:#fff;
+	animation: hue-rotate 3s linear infinite;
+}
+@keyframes hue-rotate {
+  from {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+.carousel-caption{
+	color:#000 !important;
+	background-color:#fff;
+}
+/* Carousel Start */
+
+.container-fluid {
+	padding: 0px !important;
+}
+.carousel img{
+	width: 700px;
+	height:550px;
+	float:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:0 auto;
+}
+
+/* Carousel End */
+
+/* Categories start */
+
+.card img{
+	height:300px;
+	width:280px;
+}
+.categories,.about,.services{
+	padding: 80px 0;
+}
+
+.categories-header,.about-header,.services-header{
+	text-align: center;
+}
+
+.spacer{
+	width:100px;
+	height: 4px;
+	margin:0 auto;
+	background: #000000;
+}
+
+.card-head{
+	overflow: hidden;
+	padding: 80px 20px 20px;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+a{
+	text-decoration: none !important;
+}
+
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  color: #000000 !important;
+}
+
+.card:hover{
+	bottom:10px;
+}
+
+/* Categories end */
+
+/* About Start */
+
+.about{
+	background: #dbe0db;
+	overflow: hidden;
+}
+
+.about-details{
+	padding: 40px 0px;
+	text-align: center;
+}
+
+.about-first img{
+	width:400px;
+	
+}
+
+.col-md-6{
+	padding: 0px !important;
+}
+.about-second ul li{
+	text-align:left;
+	padding:10px 0px;
+}
+.about-second p{
+	padding: 18px 0;
+}
+/* About End */
+
+/* Services Start */
+
+.services-details{
+	padding: 40px 0px;
+	text-align: center;
+}
+.services-details p{
+	padding: 20px 100px;
+	text-align: left;
+}
+.about-header{
+	padding-top:40px;
+}
+/* Services End */
+
+footer{
+	text-align: center;
+	background: #d5d5d5;
+	margin:0px;
+}
+
+.foot-content p{
+	padding: 15px 0px;
+}
+
+
+.arrow{
+	padding-right:30px;
+	padding-bottom:60px;
+}
+
+.top-up{
+	float: right;
+	border:1px solid #d5d5d5;
+
+}
+.top-up i{
+	padding: 10px 5px;
+}
+
+
+
+
+
+
+
